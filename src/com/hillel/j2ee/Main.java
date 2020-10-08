@@ -11,5 +11,7 @@ public class Main {
 
         MyLogger log =  new VitaliyLogger();
         log.print("Hi");
+
+        MVExample.printMVExample();
     }
 }
