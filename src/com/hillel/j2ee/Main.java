@@ -15,5 +15,8 @@ public class Main {
 
         MyLogger IgorsLog = new IgorSutulovLogger();
         IgorsLog.print("Hi everyone");
+
+        MyLogger komarovLogger = new KomarovLogger();
+        komarovLogger.print("I am keen on writing code!");
     }
 }
