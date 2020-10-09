@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Example.printExample();
 
-        MyLogger log =  new VitaliyLogger();
+        MyLogger log = new VitaliyLogger();
         log.print("Hi");
 
         MyLogger SDLogger = new SerhiiDetynychLogger();
