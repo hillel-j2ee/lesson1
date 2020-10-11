@@ -21,5 +21,7 @@ public class Main {
 
         MyLogger Rlogger  = new RuslanLogger();
         Rlogger.print("Hi, friends!");
+
+        GitTest.print();
     }
 }
