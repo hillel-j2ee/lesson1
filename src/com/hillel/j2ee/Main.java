@@ -10,6 +10,8 @@ public class Main {
         MyLogger log = new VitaliyLogger();
         log.print("Hi");
 
+        MVExample.printMVExample();
+
         MyLogger SDLogger = new SerhiiDetynychLogger();
         SDLogger.print("Why not?");
 
