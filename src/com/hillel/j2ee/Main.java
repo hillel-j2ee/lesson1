@@ -22,6 +22,9 @@ public class Main {
         MyLogger Rlogger  = new RuslanLogger();
         Rlogger.print("Hi, friends!");
 
+        KryvorotenkosLogger kryvorotenkosLogger = new KryvorotenkosLogger("That is Ilya Kryvorotenko's logger");
+        kryvorotenkosLogger.print();
+
         GitTest.print();
     }
 }
