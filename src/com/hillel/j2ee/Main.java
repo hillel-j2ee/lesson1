@@ -27,6 +27,9 @@ public class Main {
         KryvorotenkosLogger kryvorotenkosLogger = new KryvorotenkosLogger("That is Ilya Kryvorotenko's logger.");
         kryvorotenkosLogger.print();
 
+        MyLogger volvladi  = new VoloshchenkoVladimirLogger();
+        volvladi.print("My task number one");
+
         GitTest.print();
     }
 }
