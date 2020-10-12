@@ -1,7 +1,7 @@
 package com.hillel.j2ee.logic;
 
 public class KryvorotenkosLogger {
-    String text;
+    private String text;
 
     public KryvorotenkosLogger() {
     }

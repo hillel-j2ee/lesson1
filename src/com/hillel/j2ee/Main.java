@@ -12,6 +12,7 @@ public class Main {
 
         MyLogger SDLogger = new SerhiiDetynychLogger();
         SDLogger.print("Why not?");
+
         MyLogger IgorsLog = new IgorSutulovLogger();
         IgorsLog.print("Hi everyone");
 
