@@ -21,15 +21,25 @@ public class Main {
         MyLogger komarovLogger = new KomarovLogger();
         komarovLogger.print("I am keen on writing code!");
 
-        MyLogger Rlogger  = new RuslanLogger();
+        MyLogger Rlogger = new RuslanLogger();
         Rlogger.print("Hi, friends!");
 
         KryvorotenkosLogger kryvorotenkosLogger = new KryvorotenkosLogger("That is Ilya Kryvorotenko's logger.");
         kryvorotenkosLogger.print();
 
-        MyLogger volvladi  = new VoloshchenkoVladimirLogger();
+        MyLogger volvladi = new VoloshchenkoVladimirLogger();
         volvladi.print("My task number one");
 
         GitTest.print();
+
+        Thread threadHoncharenko = new Thread(new HoncharenkoLogger());
+        threadHoncharenko.start();
+        try {
+            threadHoncharenko.join();
+        } catch (InterruptedException e) {
+            System.out.println("Main was interrupted" + e.getMessage());
+        }
+        System.out.println("Hello");
+
     }
 }
