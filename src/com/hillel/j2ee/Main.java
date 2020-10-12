@@ -12,7 +12,6 @@ public class Main {
 
         MyLogger SDLogger = new SerhiiDetynychLogger();
         SDLogger.print("Why not?");
-
         MyLogger IgorsLog = new IgorSutulovLogger();
         IgorsLog.print("Hi everyone");
 
@@ -22,7 +21,7 @@ public class Main {
         MyLogger Rlogger  = new RuslanLogger();
         Rlogger.print("Hi, friends!");
 
-        KryvorotenkosLogger kryvorotenkosLogger = new KryvorotenkosLogger("That is Ilya Kryvorotenko's logger");
+        KryvorotenkosLogger kryvorotenkosLogger = new KryvorotenkosLogger("That is Ilya Kryvorotenko's logger.");
         kryvorotenkosLogger.print();
 
         GitTest.print();
