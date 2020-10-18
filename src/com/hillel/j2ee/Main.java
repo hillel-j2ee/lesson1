@@ -41,5 +41,7 @@ public class Main {
         }
         System.out.println("Hello");
 
+        MyLogger kirilLogger = new KirilYanovLogger();
+        kirilLogger.print("Sorry, I'm kinda late.");
     }
 }
